@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto','Open Sans', sans-serif;
 }
 p,
 h1,
@@ -12,17 +13,41 @@ h6 {
   margin: 0;
   padding: 0;
 }
+.container {
+    padding-left: 30vw;
+}
 .profile {
     display: flex;
     position: fixed;
     width: 28vw;
     height: 100vh;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url("../img/profile__background.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #ffffff;
 }
-.container {
-    padding-left: 30vw;
+.profile__img {
+    width: 180px;
+    height: 180px;
+    background-image: url("../img/profile__img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.profile__name {
+    font-size: 20px;
+    line-height: 30px;
+}
+.profile__socials {
+    font-size: 15px;
+    line-height: 20px;
+}
+.skills__list {
+    display: flex;
+    list-style: none;
 }
