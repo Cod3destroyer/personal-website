@@ -42,12 +42,47 @@ h6 {
 .profile__name {
     font-size: 20px;
     line-height: 30px;
+    font-weight: 700;
 }
-.profile__socials {
+.profile__country {
     font-size: 15px;
     line-height: 20px;
+    font-weight: 400;
 }
 .skills__list {
     display: flex;
+    justify-content: space-between;
+    padding: 0;
     list-style: none;
+    flex-wrap: wrap;
+    font-weight: 400;
+}
+.skills__item {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+}
+.skills_description {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.skills__img {
+    width: 120px;
+    height: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skills__img--html {
+    background-image: url("../img/main__html.png");
+}
+.skills__img--css {
+    background-image: url("../img/main_css.png");
+}
+.skills__img--javascript {
+    background-image: url("../img/main__javascript.jpg");
+}
+.skills__img--react {
+    background-image: url("../img/main__react.png");
 }
