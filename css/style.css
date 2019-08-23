@@ -16,6 +16,9 @@ h6 {
 .container {
     padding-left: 30vw;
 }
+.main__header {
+    text-align: center;
+}
 .profile {
     display: flex;
     position: fixed;
@@ -31,6 +34,10 @@ h6 {
     color: #ffffff;
 }
 .profile__img {
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     width: 180px;
     height: 180px;
     background-image: url("../img/profile__img.jpg");
@@ -38,6 +45,11 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
+}
+.profile__img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .profile__name {
     font-size: 20px;
@@ -56,11 +68,25 @@ h6 {
     list-style: none;
     flex-wrap: wrap;
     font-weight: 400;
+    margin: 3em;
 }
 .skills__item {
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
     display: flex;
     flex-wrap: wrap;
-    width: 30vw;
+    text-align: center;
+    margin-bottom: 3em;
+    width: 25vw;
+    height: 25vh;
+    -webkit-box-shadow: 3px 6px 15px 3px rgba(99,82,99,1);
+    -moz-box-shadow: 3px 6px 15px 3px rgba(99,82,99,1);
+    box-shadow: 3px 6px 15px 3px rgba(99,82,99,1);
+}
+.skills__item:hover {
+    transform: translateY(-10px);
 }
 .skills_description {
     font-size: 15px;
