@@ -83,11 +83,12 @@ h6 {
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     margin-bottom: 3em;
     width: 25vw;
-    height: 25vh;
+    padding: 2.5vh 2.5vw;
     -webkit-box-shadow: 3px 6px 15px 3px rgba(99,82,99,1);
     -moz-box-shadow: 3px 6px 15px 3px rgba(99,82,99,1);
     box-shadow: 3px 6px 15px 3px rgba(99,82,99,1);
@@ -106,18 +107,6 @@ h6 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.skills__img--html {
-    background-image: url("../img/main__html.png");
-}
-.skills__img--css {
-    background-image: url("../img/main_css.png");
-}
-.skills__img--javascript {
-    background-image: url("../img/main__javascript.jpg");
-}
-.skills__img--react {
-    background-image: url("../img/main__react.png");
 }
 .socials__list {
     padding: 0;
