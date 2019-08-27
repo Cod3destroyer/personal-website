@@ -20,6 +20,8 @@ h6 {
 }
 .main__header {
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .profile {
     display: flex;
@@ -34,6 +36,7 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
+    font-variant: small-caps;
 }
 .profile__img {
     -o-transition: all 0.5s ease-in-out;
@@ -47,11 +50,16 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
+    margin-bottom: 10px;
 }
 .profile__img:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+}
+.profile__info {
+    text-align: center;
+    margin-bottom: 10px;
 }
 .profile__name {
     font-size: 20px;
@@ -76,6 +84,7 @@ h6 {
     flex-wrap: wrap;
     font-weight: 400;
     margin: 3em;
+    margin-top: 0;
 }
 .skills__item {
     -o-transition: all 0.5s ease-in-out;
@@ -89,6 +98,9 @@ h6 {
     margin-bottom: 3em;
     width: 25vw;
     padding: 2.5vh 2.5vw;
+    background-image: url("../img/asfalt-light.png");
+    background-repeat: repeat;
+    background-position: 0 0;
     -webkit-box-shadow: 3px 6px 15px 3px rgba(99,82,99,1);
     -moz-box-shadow: 3px 6px 15px 3px rgba(99,82,99,1);
     box-shadow: 3px 6px 15px 3px rgba(99,82,99,1);
@@ -110,6 +122,7 @@ h6 {
 }
 .socials__list {
     padding: 0;
+    margin: 0;
     display: flex; 
     list-style: none;
     flex-wrap: wrap;
